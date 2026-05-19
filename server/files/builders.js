@@ -4,7 +4,7 @@ export class ElementBuilder {
   }
 
   id(id) {
-    this.element.dataset.imdbID = id;
+    this.element.id = id;
     return this;
   }
 
@@ -107,10 +107,14 @@ export class MovieBuilder extends ElementBuilder {
       .append(new ElementBuilder("h1").text(movie.Title));
 
     if (isLoggedIn) {
+      const dropdown = new ElementBuilder("div").class("burger-dropdown")
+        .append(new ButtonBuilder("Edit").onclick(() => location.href = "edit.html?imdbID=" + movie.imdbID))
+        .append(new ButtonBuilder("Delete").onclick(() => deleteMovie(movie.imdbID)));
+
       this.append(
-        new ElementBuilder("p")
-          .append(new ButtonBuilder("Edit").onclick(() => location.href = "edit.html?imdbID=" + movie.imdbID))
-          .append(new ButtonBuilder("Delete").onclick(() => deleteMovie(movie.imdbID)))
+        new ElementBuilder("div").class("burger-menu")
+          .append(new ButtonBuilder("☰").class("burger-btn").listener("click", () => dropdown.element.classList.toggle("open")))
+          .append(dropdown)
       );
     }
 

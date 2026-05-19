@@ -82,90 +82,59 @@
     }
   },
   "jane": {
-    "tt1972591": {
-      "imdbID": "tt1972591",
-      "Title": "King Arthur: Legend of the Sword",
-      "Released": "2017-05-11",
-      "Runtime": 126,
+    "tt1261945": {
+      "imdbID": "tt1261945",
+      "Title": "Sex and the City 2",
+      "Year": 2010,
+      "Runtime": 146,
+      "Released": "27 May 2010",
+      "Plot": "While wrestling with the pressures of life, love, and work in Manhattan, Carrie, Miranda, and Charlotte join Samantha for a trip to Abu Dhabi (United Arab Emirates), where Samantha's ex is filming a new movie.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTM3OTUyNTI3MF5BMl5BanBnXkFtZTcwODcyMzM0Mw@@._V1_SX300.jpg",
       "Genres": [
-        "Action",
-        "Adventure",
-        "Drama"
-      ],
-      "Directors": [
-        "Guy Ritchie"
-      ],
-      "Writers": [
-        "Joby Harold",
-        "Guy Ritchie",
-        "Lionel Wigram"
-      ],
-      "Actors": [
-        "Charlie Hunnam",
-        "Astrid Bergès-Frisbey",
-        "Jude Law"
-      ],
-      "Plot": "Robbed of his birthright, Arthur comes up the hard way in the back alleys of the city. But once he pulls the sword from the stone, he is forced to acknowledge his true legacy - whether he likes it or not.",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMjM3ODY3Njc5Ml5BMl5BanBnXkFtZTgwMjQ5NjM5MTI@._V1_SX300.jpg",
-      "Metascore": 41,
-      "imdbRating": 6.7
-    },
-    "tt0360717": {
-      "imdbID": "tt0360717",
-      "Title": "King Kong",
-      "Released": "2005-12-13",
-      "Runtime": 187,
-      "Genres": [
-        "Action",
-        "Adventure",
+        "Comedy",
+        "Drama",
         "Romance"
       ],
       "Directors": [
-        "Peter Jackson"
+        "Michael Patrick King"
       ],
       "Writers": [
-        "Fran Walsh",
-        "Philippa Boyens",
-        "Peter Jackson"
+        "Michael Patrick King",
+        "Candace Bushnell",
+        "Darren Star"
       ],
       "Actors": [
-        "Naomi Watts",
-        "Jack Black",
-        "Adrien Brody"
-      ],
-      "Plot": "A greedy film producer assembles a team of moviemakers and sets out for the infamous Skull Island, where they find more than just cannibalistic natives.",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMWY0NWE0ZjUtNjRlOS00ZDViLTgxNTQtMGMwN2FhNDY1YTg2XkEyXkFqcGc@._V1_SX300.jpg",
-      "Metascore": 81,
-      "imdbRating": 7.2
+        "Sarah Jessica Parker",
+        "Kim Cattrall",
+        "Kristin Davis"
+      ]
     },
-    "tt0110357": {
-      "imdbID": "tt0110357",
-      "Title": "The Lion King",
-      "Released": "1994-06-23",
-      "Runtime": 88,
+    "tt1001508": {
+      "imdbID": "tt1001508",
+      "Title": "He's Just Not That Into You",
+      "Year": 2009,
+      "Runtime": 129,
+      "Released": "06 Feb 2009",
+      "Plot": "This Baltimore-set movie of interconnecting story arcs deals with the challenges of reading or misreading human behavior.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTY5MTUyNDgwMF5BMl5BanBnXkFtZTcwNzYzMDQyMg@@._V1_SX300.jpg",
       "Genres": [
-        "Animation",
-        "Adventure",
-        "Drama"
+        "Comedy",
+        "Drama",
+        "Romance"
       ],
       "Directors": [
-        "Roger Allers",
-        "Rob Minkoff"
+        "Ken Kwapis"
       ],
       "Writers": [
-        "Irene Mecchi",
-        "Jonathan Roberts",
-        "Linda Woolverton"
+        "Abby Kohn",
+        "Marc Silverstein",
+        "Greg Behrendt"
       ],
       "Actors": [
-        "Matthew Broderick",
-        "Jeremy Irons",
-        "James Earl Jones"
-      ],
-      "Plot": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BZGRiZDZhZjItM2M3ZC00Y2IyLTk3Y2MtMWY5YjliNDFkZTJlXkEyXkFqcGc@._V1_SX300.jpg",
-      "Metascore": 88,
-      "imdbRating": 8.5
+        "Ginnifer Goodwin",
+        "Jennifer Aniston",
+        "Jennifer Connelly"
+      ]
     }
   }
 }

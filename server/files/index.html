@@ -28,33 +28,38 @@
     </nav>
     <main></main>
     <footer>
+      <p>&copy; Movies!</p>
       <ul>
-        <li>&copy; Movies!</li>
-        <li>&#8213;</li>
-        <li>Written by <a href="mailto:jane.doe@example.com">Jane Doe</a></li>
-        <li>&#8213;</li>
-        <li>
-          Visit us at
-          <a href="https://www.hcw.ac.at/" target="_blank">UAS Campus Vienna</a>
-        </li>
+        <li>Written by <a href="mailto:katarina.jovicic@stud.hcw.ac.at">Katarina Jovicic</a></li>
+        <li>|</li>
+        <li>Visit us at <a href="https://www.hcw.ac.at/" target="_blank">UAS Campus Vienna</a></li>
       </ul>
     </footer>
 
     <!-- Login Dialog -->
     <dialog id="loginDialog">
       <form id="loginForm">
+        <h2>Welcome back!</h2>
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required>
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" required>
-        <button type="submit">Login</button>
-        <button type="button" id="cancelLogin">Cancel</button>
+        <div class="dialog-actions">
+          <button type="submit">Login</button>
+          <button type="button" id="cancelLogin">Cancel</button>
+        </div>
       </form>
     </dialog>
 
-    <!-- Task 2.1: Add a search dialog markup. Make sure the ids of the elements 
-     match the ones used in index.js. Your dialog needs a form and submit and cancel
-     buttons. -->
+    <dialog id="searchDialog">
+      <form id="searchForm">
+        <label for="query">Search:</label>
+        <input type="text" id="query" name="query" required>
+        <button type="submit">Search</button>
+        <button type="button" id="cancelSearch">Cancel</button>
+      </form>
+      <div id="searchResults"></div>
+    </dialog>
     
   </body>
 </html>
